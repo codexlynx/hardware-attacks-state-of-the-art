@@ -1,4 +1,4 @@
-# hardware-attacks-state-of-the-art
+# Hardware attacks / State of the art
 
 <p align="center">
   <img src="main.jpg">
@@ -70,6 +70,13 @@ Contributions, comments and corrections are welcome, please do PR.
 * [__[CVE-2018-5407]__ PortSmash]()
 * [ARMageddon](https://arxiv.org/abs/1511.04897v1)
 * [Nemesis](https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf)
+
+#### Proof of concepts:
+* TPM-Fail: https://github.com/VernamLab/TPM-Fail
+* Rowhammer (Google): https://github.com/google/rowhammer-test
+* Rowhammer (IAIK): https://github.com/IAIK/rowhammerjs
+* DRAMMER: https://github.com/vusec/drammer
+* SGX-Bomb: https://github.com/sslab-gatech/sgx-bomb
 
 #### Resources:
 * [Linux Kernel Defence Map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
