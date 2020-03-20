@@ -65,6 +65,7 @@ Contributions, comments and corrections are welcome, please do PR.
             * [__[CVE-2019-11135]__ ZombieLoad v2 / TSX Asynchronous Abort (TAA)](https://zombieloadattack.com/)
             * __[CVE-2020-0548]__ Vector Register Sampling (VRS)
             * [__[CVE-2020-0549]__ CacheOut / L1D Eviction Sampling (L1DES)](https://cacheoutattack.com/)
+    * [__[CVE-2020-0551]__ Hijacking Transient Execution with Load Value Injection (LVI)](https://lviattack.eu)    
 
             
 * [__[CVE-2018-5407]__ PortSmash]()
@@ -77,6 +78,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * Rowhammer (IAIK): https://github.com/IAIK/rowhammerjs
 * DRAMMER: https://github.com/vusec/drammer
 * SGX-Bomb: https://github.com/sslab-gatech/sgx-bomb
+* SWAPGS: https://github.com/bitdefender/swapgs-attack-poc
 
 #### Resources:
 * [Linux Kernel Defence Map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
@@ -85,6 +87,13 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Interactive guide to speculative execution attacks:](https://mdsattacks.com/diagram.html)
 ![](https://mdsattacks.com/images/skylake.svg)
 
+#### Tools:
+* [sandsifter](https://github.com/xoreaxeaxeax/sandsifter): The x86 processor fuzzer
+* [OpcodeTester](https://github.com/cattius/opcodetester): Analyse Undocumented Instructions on Intel x86/x86-64 and RISC-V
+
+#### Blog posts:
+* [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
+* [Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection](https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html)
 
 #### Others:
 > $ cat /sys/devices/system/cpu/vulnerabilities/*
