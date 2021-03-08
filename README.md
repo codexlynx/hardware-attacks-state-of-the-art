@@ -72,6 +72,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [__[CVE-2018-5407]__ PortSmash]()
 * [ARMageddon](https://arxiv.org/abs/1511.04897v1)
 * [Nemesis](https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf)
+* [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
