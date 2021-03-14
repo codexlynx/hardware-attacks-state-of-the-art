@@ -86,6 +86,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Linux Kernel Defence Map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
 * [Linux Kernel Hardware Vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html)
 * [Transient Execution Attacks](https://transient.fail)
+* [A Spectre demo written in Javascript for Chrome 88](https://leaky.page)
 * [Interactive guide to speculative execution attacks:](https://mdsattacks.com/diagram.html)
 ![](https://mdsattacks.com/images/skylake.svg)
 
@@ -98,6 +99,9 @@ Contributions, comments and corrections are welcome, please do PR.
 #### Blog posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
 * [Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection](https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html)
+
+#### Other papers:
+* [Reverse Engineering of Intel Microcode Update Structure](https://ieeexplore.ieee.org/document/9197630)
 
 #### Others:
 > $ cat /sys/devices/system/cpu/vulnerabilities/*
