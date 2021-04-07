@@ -87,6 +87,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Linux Kernel Hardware Vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html)
 * [Transient Execution Attacks](https://transient.fail)
 * [A Spectre demo written in Javascript for Chrome 88](https://leaky.page)
+* [RAM Anatomy Poster](https://goodies.dotnetos.org/files/dotnetos-poster-ram.pdf)
 * [Interactive guide to speculative execution attacks:](https://mdsattacks.com/diagram.html)
 ![](https://mdsattacks.com/images/skylake.svg)
 
@@ -99,9 +100,15 @@ Contributions, comments and corrections are welcome, please do PR.
 #### Blog posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
 * [Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection](https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html)
+* [Pulling Bits From ROM Silicon Die Images: Unknown Architecture](https://ryancor.medium.com/pulling-bits-from-rom-silicon-die-images-unknown-architecture-b73b6b0d4e5d)
 
 #### Other papers:
 * [Reverse Engineering of Intel Microcode Update Structure](https://ieeexplore.ieee.org/document/9197630)
+* [Security Analysis of AMD predictive store forwarding (AMD Zen 3)](https://www.amd.com/system/files/documents/security-analysis-predictive-store-forwarding.pdf)
+* [Flushgeist: Cache Leaks from Beyond the Flush](https://vwzq.net/papers/flushgeist20.pdf)
+* [Theory and Practice of Finding Eviction Sets](https://ieeexplore.ieee.org/document/8835261)
+* [CacheQuery: Learning Replacement Policies from Hardware Caches](https://arxiv.org/abs/1912.09770)
+* [Hardware-Software Contracts for Secure Speculation](https://arxiv.org/abs/2006.03841)
 
 #### Others:
 > $ cat /sys/devices/system/cpu/vulnerabilities/*
