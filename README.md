@@ -24,6 +24,7 @@ Contributions, comments and corrections are welcome, please do PR.
     * [SGX-Bomb](https://www.microsoft.com/en-us/research/publication/sgx-bomb-locking-down-the-processor-via-rowhammer-attack/)
     * [Nethammer](https://arxiv.org/abs/1805.04956)
     * [JackHammer](https://arxiv.org/abs/1912.11523)
+    * [Half-Double: Next-Row-Over Assisted Rowhammer](https://github.com/google/hammer-kit/blob/9adad960512d511e864bb7854822f0d1b789ac4b/20210525_half_double.pdf)
      
 * __Spectre__:
     * [__[CVE-2017-5753]__ Spectre-V1 / Spectre v1 / Spectre-PHT / Bounds Check Bypass (BCB)](https://meltdownattack.com/)
@@ -70,6 +71,7 @@ Contributions, comments and corrections are welcome, please do PR.
 
             
 * [__[CVE-2018-5407]__ PortSmash]()
+* [__[CVE-2021-30747]__ M1RACLES: M1ssing Register Access Controls Leak EL0 State (covert channel vulnerability in the Apple Silicon "M1" chip)](https://m1racles.com/)
 * [ARMageddon](https://arxiv.org/abs/1511.04897v1)
 * [Nemesis](https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf)
 * [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
@@ -88,14 +90,16 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Transient Execution Attacks](https://transient.fail)
 * [A Spectre demo written in Javascript for Chrome 88](https://leaky.page)
 * [RAM Anatomy Poster](https://goodies.dotnetos.org/files/dotnetos-poster-ram.pdf)
+* [speculation-bugs: Docs and resources on CPU Speculative Execution bugs](https://github.com/marcan/speculation-bugs)
 * [Interactive guide to speculative execution attacks:](https://mdsattacks.com/diagram.html)
 ![](https://mdsattacks.com/images/skylake.svg)
 
 #### Tools:
-* [sandsifter](https://github.com/xoreaxeaxeax/sandsifter): The x86 processor fuzzer
-* [OpcodeTester](https://github.com/cattius/opcodetester): Analyse Undocumented Instructions on Intel x86/x86-64 and RISC-V
-* [evsets](https://github.com/cgvwzq/evsets): Tool for testing and finding minimal eviction sets
+* [sandsifter](https://github.com/xoreaxeaxeax/sandsifter): The x86 processor fuzzer.
+* [OpcodeTester](https://github.com/cattius/opcodetester): Analyse Undocumented Instructions on Intel x86/x86-64 and RISC-V.
+* [evsets](https://github.com/cgvwzq/evsets): Tool for testing and finding minimal eviction sets.
 * [cachequery](https://github.com/cgvwzq/cachequery): A tool for interacting with hardware memory caches in modern Intel CPUs.
+* [haruspex](https://github.com/can1357/haruspex): Exploration of x86-64 ISA using speculative execution.
 
 #### Blog posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
