@@ -25,6 +25,7 @@ Contributions, comments and corrections are welcome, please do PR.
     * [Nethammer](https://arxiv.org/abs/1805.04956)
     * [JackHammer](https://arxiv.org/abs/1912.11523)
     * [Half-Double: Next-Row-Over Assisted Rowhammer](https://github.com/google/hammer-kit/blob/9adad960512d511e864bb7854822f0d1b789ac4b/20210525_half_double.pdf)
+    * [Blacksmith](https://comsec.ethz.ch/research/dram/blacksmith/)
      
 * __Spectre__:
     * [__[CVE-2017-5753]__ Spectre-V1 / Spectre v1 / Spectre-PHT / Bounds Check Bypass (BCB)](https://meltdownattack.com/)
@@ -84,6 +85,9 @@ Contributions, comments and corrections are welcome, please do PR.
 * SGX-Bomb: https://github.com/sslab-gatech/sgx-bomb
 * SWAPGS: https://github.com/bitdefender/swapgs-attack-poc
 
+#### Other PoCs:
+* [__[spook.js]__ Attacking Google Chrome's Strict Site Isolation via Speculative Execution and Type Confusion](https://www.spookjs.com/)
+
 #### Resources:
 * [Linux Kernel Defence Map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
 * [Linux Kernel Hardware Vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html)
@@ -101,10 +105,12 @@ Contributions, comments and corrections are welcome, please do PR.
 * [cachequery](https://github.com/cgvwzq/cachequery): A tool for interacting with hardware memory caches in modern Intel CPUs.
 * [haruspex](https://github.com/can1357/haruspex): Exploration of x86-64 ISA using speculative execution.
 
-#### Blog posts:
+#### Blogs and posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
 * [Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection](https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html)
 * [Pulling Bits From ROM Silicon Die Images: Unknown Architecture](https://ryancor.medium.com/pulling-bits-from-rom-silicon-die-images-unknown-architecture-b73b6b0d4e5d)
+* [Beating the L1 cache with value speculation](https://mazzo.li/posts/value-speculation.html)
+* [COMSEC (ETH Zürich) Blog](https://comsec.ethz.ch/research/)
 
 #### Other papers:
 * [Reverse Engineering of Intel Microcode Update Structure](https://ieeexplore.ieee.org/document/9197630)
@@ -113,6 +119,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Theory and Practice of Finding Eviction Sets](https://ieeexplore.ieee.org/document/8835261)
 * [CacheQuery: Learning Replacement Policies from Hardware Caches](https://arxiv.org/abs/1912.09770)
 * [Hardware-Software Contracts for Secure Speculation](https://arxiv.org/abs/2006.03841)
+* [Speculative Probing: Hacking Blind in the Spectre Era](https://download.vusec.net/papers/blindside_ccs20.pdf)
 
 #### Others:
 > $ cat /sys/devices/system/cpu/vulnerabilities/*
