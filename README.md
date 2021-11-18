@@ -19,14 +19,14 @@ Contributions, comments and corrections are welcome, please do PR.
     * [__[CVE-2018-9442]__ RAMPage](https://rampageattack.com/)
     * [__[CVE-2019-0174]__ RAMBleed](https://rambleed.com/)
     * [__[CVE-2019-0162]__ SPOILER / Speculative Load Hazards Boost Rowhammer and Cache Attacks](https://arxiv.org/abs/1903.00446)
+    * [__[CVE-2021-42114]__ Blacksmith/ Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/research/dram/blacksmith/)
     * [DRAMA/DRAM Addressing](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/pessl)
     * [Flip Feng Shui (FFS)](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/razavi)
     * [SGX-Bomb](https://www.microsoft.com/en-us/research/publication/sgx-bomb-locking-down-the-processor-via-rowhammer-attack/)
     * [Nethammer](https://arxiv.org/abs/1805.04956)
     * [JackHammer](https://arxiv.org/abs/1912.11523)
     * [Half-Double: Next-Row-Over Assisted Rowhammer](https://github.com/google/hammer-kit/blob/9adad960512d511e864bb7854822f0d1b789ac4b/20210525_half_double.pdf)
-    * [Blacksmith](https://comsec.ethz.ch/research/dram/blacksmith/)
-     
+
 * __Spectre__:
     * [__[CVE-2017-5753]__ Spectre-V1 / Spectre v1 / Spectre-PHT / Bounds Check Bypass (BCB)](https://meltdownattack.com/)
         * [SGXPectre](https://arxiv.org/abs/1802.09085)
@@ -104,6 +104,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [evsets](https://github.com/cgvwzq/evsets): Tool for testing and finding minimal eviction sets.
 * [cachequery](https://github.com/cgvwzq/cachequery): A tool for interacting with hardware memory caches in modern Intel CPUs.
 * [haruspex](https://github.com/can1357/haruspex): Exploration of x86-64 ISA using speculative execution.
+* [Blacksmith](https://github.com/comsec-group/blacksmith): Next-gen Rowhammer fuzzer that uses non-uniform, frequency-based patterns.
 
 #### Blogs and posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
