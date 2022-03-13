@@ -34,6 +34,7 @@ Contributions, comments and corrections are welcome, please do PR.
         
     * [__[CVE-2018-3693]__ Spectre 1.2 / Meltdown-RW / Read-only protection bypass (RPB)](https://arxiv.org/abs/1807.03757) 	
     * [__[CVE-2017-5715]__ Spectre-V2 / Spectre v2 / Spectre-BTB / Branch Target Injection (BTI)](https://arxiv.org/abs/1807.03757)
+        * [__[CVE-2021-26341]__ Specter-BTH / Branch History Injection (BTH)](https://download.vusec.net/papers/bhi-spectre-bhb_sec22.pdf)
     * [__[CVE-2018-9056]__ BranchScope](https://www.researchgate.net/publication/323951622_BranchScope_A_New_Side-Channel_Attack_on_Directional_Branch_Predictor)
     * __SpectreNG class__:
         * [__[CVE-2018-3640]__ Spectre v3a / Meltdown-GP / Rogue System Register Read (RSRR)]()
