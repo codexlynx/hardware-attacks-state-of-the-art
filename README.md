@@ -77,6 +77,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [ARMageddon](https://arxiv.org/abs/1511.04897v1)
 * [Nemesis](https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf)
 * [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
+* [__[Augury]__ Using Data Memory-Dependent Prefetchers (DMP) to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
@@ -85,6 +86,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * DRAMMER: https://github.com/vusec/drammer
 * SGX-Bomb: https://github.com/sslab-gatech/sgx-bomb
 * SWAPGS: https://github.com/bitdefender/swapgs-attack-poc
+* Berkeley Out-of-Order Machine (BOOM) RV64GC RISC-V core Spectre attacks: https://github.com/riscv-boom/boom-attacks
 
 #### Other PoCs:
 * [__[spook.js]__ Attacking Google Chrome's Strict Site Isolation via Speculative Execution and Type Confusion](https://www.spookjs.com/)
