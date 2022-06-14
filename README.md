@@ -74,11 +74,12 @@ Contributions, comments and corrections are welcome, please do PR.
             
 * [__[CVE-2018-5407]__ PortSmash]()
 * [__[CVE-2021-30747]__ M1RACLES: M1ssing Register Access Controls Leak EL0 State (covert channel vulnerability in the Apple Silicon "M1" chip)](https://m1racles.com/)
-* [__[PACMAN]__ Attacking ARM pointer authentication with speculative execution](https://dl.acm.org/doi/10.1145/3470496.3527429)
+* [__[PACMAN]__ Attacking ARM pointer authentication with speculative execution](https://pacmanattack.com/)
 * [ARMageddon](https://arxiv.org/abs/1511.04897v1)
 * [Nemesis](https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf)
 * [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
 * [__[Augury]__ Using Data Memory-Dependent Prefetchers (DMP) to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
+* [__[Hertzbleed]__ Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
