@@ -35,6 +35,7 @@ Contributions, comments and corrections are welcome, please do PR.
     * [__[CVE-2018-3693]__ Spectre 1.2 / Meltdown-RW / Read-only protection bypass (RPB)](https://arxiv.org/abs/1807.03757) 	
     * [__[CVE-2017-5715]__ Spectre-V2 / Spectre v2 / Spectre-BTB / Branch Target Injection (BTI)](https://arxiv.org/abs/1807.03757)
         * [__[CVE-2021-26341]__ Specter-BTH / Branch History Injection (BTH)](https://download.vusec.net/papers/bhi-spectre-bhb_sec22.pdf)
+        * [__[CVE-2022-29900 / CVE-2022-29901]__ RETBleed (Arbitrary Speculative Code Execution with Return Instructions)](https://comsec.ethz.ch/wp-content/files/retbleed_sec22.pdf)
     * [__[CVE-2018-9056]__ BranchScope](https://www.researchgate.net/publication/323951622_BranchScope_A_New_Side-Channel_Attack_on_Directional_Branch_Predictor)
     * __SpectreNG class__:
         * [__[CVE-2018-3640]__ Spectre v3a / Meltdown-GP / Rogue System Register Read (RSRR)]()
@@ -89,6 +90,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * SGX-Bomb: https://github.com/sslab-gatech/sgx-bomb
 * SWAPGS: https://github.com/bitdefender/swapgs-attack-poc
 * Berkeley Out-of-Order Machine (BOOM) RV64GC RISC-V core Spectre attacks: https://github.com/riscv-boom/boom-attacks
+* RETBleed: https://github.com/comsec-group/retbleed
 
 #### Other PoCs:
 * [__[spook.js]__ Attacking Google Chrome's Strict Site Isolation via Speculative Execution and Type Confusion](https://www.spookjs.com/)
@@ -110,6 +112,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [cachequery](https://github.com/cgvwzq/cachequery): A tool for interacting with hardware memory caches in modern Intel CPUs.
 * [haruspex](https://github.com/can1357/haruspex): Exploration of x86-64 ISA using speculative execution.
 * [Blacksmith](https://github.com/comsec-group/blacksmith): Next-gen Rowhammer fuzzer that uses non-uniform, frequency-based patterns.
+* [Speculator](https://github.com/ibm-research/speculator): Tool to Analyze Speculative Execution Attacks and Mitigations.
 
 #### Blogs and posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
