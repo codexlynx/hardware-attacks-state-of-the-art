@@ -81,6 +81,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
 * [__[Augury]__ Using Data Memory-Dependent Prefetchers (DMP) to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
 * [__[Hertzbleed]__ Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/)
+* [__[ÆPIC Leak]__ Architecturally Leaking Uninitialized Data from the Microarchitecture](https://aepicleak.com/)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
@@ -114,6 +115,12 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Blacksmith](https://github.com/comsec-group/blacksmith): Next-gen Rowhammer fuzzer that uses non-uniform, frequency-based patterns.
 * [Speculator](https://github.com/ibm-research/speculator): Tool to Analyze Speculative Execution Attacks and Mitigations.
 * [MicrocodeDecryptor](https://github.com/chip-red-pill/MicrocodeDecryptor): Understand how Intel mitigated spectre vulnerability, explore the implementation of Intel TXT, SGX,VT-x technologies.
+* [SiliFuzz](https://github.com/google/silifuzz): Fuzzing CPUs by proxy.
+
+#### Slides:
+* [A Dirty Little History](https://i.blackhat.com/USA-22/Thursday/US-22-Frigo-A-Dirty-Little-History.pdf): Bypassing Spectre Hardware Defenses to Leak Kernel Data
+* [Custom Processing Unit](https://i.blackhat.com/USA-22/Thursday/US-22-Borrello-Custom-Processing-Unit.pdf): Tracing and Patching Intel Atom Microcode.
+* [ÆPIC Leak](https://i.blackhat.com/USA-22/Wednesday/US-22-Borrello-Architecturally-Leaking-Data.pdf): Architecturally Leaking Uninitialized Data from the Microarchitecture.
 
 #### Blogs and posts:
 * [CPU Introspection: Intel Load Port Snooping](https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html)
