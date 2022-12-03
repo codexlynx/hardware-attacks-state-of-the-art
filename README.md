@@ -10,6 +10,9 @@
 Contributions, comments and corrections are welcome, please do PR.
 
 #### Flaws:
+* [__[ÆPIC Leak]__ Architecturally Leaking Uninitialized Data from the Microarchitecture](https://aepicleak.com/)
+    * [__[CVE-2022-21233]__ Stale Data Read from Legacy xAPIC](https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/advisory-guidance/stale-data-read-from-xapic.html)
+
 * [TPM-FAIL / TPM meets Timing and Lattice Attacks](https://tpm.fail/)
     * __[CVE-2019-11090]__ For Intel fTPM
     * __[CVE-2019-16863]__ For STMicroelectronics TPM
@@ -62,7 +65,7 @@ Contributions, comments and corrections are welcome, please do PR.
             
     * [__Microarchitectural Data Sampling (MDS)__](https://mdsattacks.com/):
         * __[CVE-2018-12126]__ Fallout / Microarchitectural Store Buffer Data Sampling (MSBDS)
-        * Rogue In-Flight Data Load (RIDL):
+        * __Rogue In-Flight Data Load (RIDL)__:
             * [__[CVE-2018-12130]__ ZombieLoad / Microarchitectural Fill Buffer Data Sampling (MFBDS)](https://zombieloadattack.com/)
             * __[CVE-2018-12127]__ Microarchitectural Load Port Data Sampling (MLPDS)
             * __[CVE-2019-11091]__ Microarchitectural Data Sampling Uncacheable Memory (MDSUM)
@@ -71,8 +74,13 @@ Contributions, comments and corrections are welcome, please do PR.
             * [__[CVE-2020-0549]__ CacheOut / L1D Eviction Sampling (L1DES)](https://cacheoutattack.com/)
     * [__[CVE-2020-0551]__ Hijacking Transient Execution with Load Value Injection (LVI)](https://lviattack.eu)
     * [__[CVE-2020-0543]__ Crosstalk / Special Register Buffer Data Sampling (SRBDS)](https://download.vusec.net/papers/crosstalk_sp21.pdf)
+    * [__Processor MMIO Stale Data based__](https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/processor-mmio-stale-data-vulnerabilities.html):
+      * __[CVE-2022-21166]__ Device Register Partial Write (DRPW)
+      * __[CVE-2022-21127]__ Update to Special Register Buffer Data Sampling (SRBDS Update)
+      * __[CVE-2022-21123]__ Shared Buffers Data Read (SBDR)
+      * __[CVE-2022-21125]__ Shared Buffers Data Sampling (SBDS)
 
-            
+
 * [__[CVE-2018-5407]__ PortSmash]()
 * [__[CVE-2021-30747]__ M1RACLES: M1ssing Register Access Controls Leak EL0 State (covert channel vulnerability in the Apple Silicon "M1" chip)](https://m1racles.com/)
 * [__[PACMAN]__ Attacking ARM pointer authentication with speculative execution](https://pacmanattack.com/)
@@ -81,7 +89,6 @@ Contributions, comments and corrections are welcome, please do PR.
 * [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
 * [__[Augury]__ Using Data Memory-Dependent Prefetchers (DMP) to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
 * [__[Hertzbleed]__ Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/)
-* [__[ÆPIC Leak]__ Architecturally Leaking Uninitialized Data from the Microarchitecture](https://aepicleak.com/)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
@@ -100,6 +107,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Linux Kernel Defence Map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
 * [Linux Kernel Hardware Vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html)
 * [Transient Execution Attacks](https://transient.fail)
+* [SGX Fail: How Stuff Gets eXposed](https://sgx.fail/)
 * [A Spectre demo written in Javascript for Chrome 88](https://leaky.page)
 * [RAM Anatomy Poster](https://goodies.dotnetos.org/files/dotnetos-poster-ram.pdf)
 * [speculation-bugs: Docs and resources on CPU Speculative Execution bugs](https://github.com/marcan/speculation-bugs)
