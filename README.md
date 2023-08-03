@@ -88,7 +88,10 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Nemesis](https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf)
 * [__[Lord of the Ring(s)]__ Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://arxiv.org/pdf/2103.03443.pdf)
 * [__[Augury]__ Using Data Memory-Dependent Prefetchers (DMP) to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
+* [__[CVE-2020-8694 / CVE-2020-8695]__ PLATYPUS: Software-based Power Side-Channel Attacks on x86 ](https://platypusattack.com/)
 * [__[Hertzbleed]__ Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/)
+* [__[CVE-2023-20593]__ Zenbleed: A use-after-free in AMD Zen2 processors](https://lock.cmpxchg8b.com/zenbleed.html)
+* [__[CVE-2023-20583]__ Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels](https://collidepower.com/)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
