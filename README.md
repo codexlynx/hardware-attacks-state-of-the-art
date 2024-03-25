@@ -73,12 +73,17 @@ Contributions, comments and corrections are welcome, please do PR.
             * __[CVE-2020-0548]__ Vector Register Sampling (VRS)
             * [__[CVE-2020-0549]__ CacheOut / L1D Eviction Sampling (L1DES)](https://cacheoutattack.com/)
     * [__[CVE-2020-0551]__ Hijacking Transient Execution with Load Value Injection (LVI)](https://lviattack.eu)
+      * [__[CVE-2022-40982]__ Downfall: Exploiting Speculative Data Gathering](https://downfall.page/)
     * [__[CVE-2020-0543]__ Crosstalk / Special Register Buffer Data Sampling (SRBDS)](https://download.vusec.net/papers/crosstalk_sp21.pdf)
     * [__Processor MMIO Stale Data based__](https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/processor-mmio-stale-data-vulnerabilities.html):
       * __[CVE-2022-21166]__ Device Register Partial Write (DRPW)
       * __[CVE-2022-21127]__ Update to Special Register Buffer Data Sampling (SRBDS Update)
       * __[CVE-2022-21123]__ Shared Buffers Data Read (SBDR)
       * __[CVE-2022-21125]__ Shared Buffers Data Sampling (SBDS)
+    * Speculative Race Conditions (SRC):
+      * [__[CVE-2024-2193]__ GhostRace: Exploiting and Mitigating Speculative Race Conditions](http://download.vusec.net/papers/ghostrace_sec24.pdf)
+      * Speculative Synchronization:
+        * [__[CVE-2024-26602]__ Inter-Process Interrupt (IPI) Storming](https://www.vusec.net/projects/ghostrace/)
 
 
 * [__[CVE-2018-5407]__ PortSmash]()
@@ -92,6 +97,8 @@ Contributions, comments and corrections are welcome, please do PR.
 * [__[Hertzbleed]__ Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/)
 * [__[CVE-2023-20593]__ Zenbleed: A use-after-free in AMD Zen2 processors](https://lock.cmpxchg8b.com/zenbleed.html)
 * [__[CVE-2023-20583]__ Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels](https://collidepower.com/)
+* [__[CVE-2023-23583]__ Reptar: A Intel redundant prefix vulnerability](https://lock.cmpxchg8b.com/reptar.html)
+* [__[GoFetch]__ Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://gofetch.fail/)
 
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
@@ -127,6 +134,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Speculator](https://github.com/ibm-research/speculator): Tool to Analyze Speculative Execution Attacks and Mitigations.
 * [MicrocodeDecryptor](https://github.com/chip-red-pill/MicrocodeDecryptor): Understand how Intel mitigated spectre vulnerability, explore the implementation of Intel TXT, SGX,VT-x technologies.
 * [SiliFuzz](https://github.com/google/silifuzz): Fuzzing CPUs by proxy.
+* [Cascade](https://github.com/comsec-group/cascade-artifacts): CPU Fuzzing via Intricate Program Generation.
 
 #### Slides:
 * [A Dirty Little History](https://i.blackhat.com/USA-22/Thursday/US-22-Frigo-A-Dirty-Little-History.pdf): Bypassing Spectre Hardware Defenses to Leak Kernel Data
@@ -139,6 +147,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [Pulling Bits From ROM Silicon Die Images: Unknown Architecture](https://ryancor.medium.com/pulling-bits-from-rom-silicon-die-images-unknown-architecture-b73b6b0d4e5d)
 * [Beating the L1 cache with value speculation](https://mazzo.li/posts/value-speculation.html)
 * [COMSEC (ETH Zürich) Blog](https://comsec.ethz.ch/research/)
+* [No More Speculation: Exploiting CPU Side-Channels for Real](https://bughunters.google.com/blog/4712170091839488/no-more-speculation-exploiting-cpu-side-channels-for-real)
 
 #### Other papers:
 * [Reverse Engineering of Intel Microcode Update Structure](https://ieeexplore.ieee.org/document/9197630)
@@ -148,6 +157,7 @@ Contributions, comments and corrections are welcome, please do PR.
 * [CacheQuery: Learning Replacement Policies from Hardware Caches](https://arxiv.org/abs/1912.09770)
 * [Hardware-Software Contracts for Secure Speculation](https://arxiv.org/abs/2006.03841)
 * [Speculative Probing: Hacking Blind in the Spectre Era](https://download.vusec.net/papers/blindside_ccs20.pdf)
+* [Speculation at Fault: Modeling and Testing Microarchitectural Leakage of CPU Exceptions](https://www.usenix.org/system/files/usenixsecurity23-hofmann.pdf)
 
 #### Others:
 > $ cat /sys/devices/system/cpu/vulnerabilities/*
