@@ -100,6 +100,16 @@ Contributions, comments and corrections are welcome, please do PR.
 * [__[CVE-2023-23583]__ Reptar: A Intel redundant prefix vulnerability](https://lock.cmpxchg8b.com/reptar.html)
 * [__[GoFetch]__ Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://gofetch.fail/)
 
+* [__[FeatureBleed]__ Inferring Private Enriched Attributes From Sparsity-Optimized AI Accelerators](https://arxiv.org/abs/2602.18304) (IEEE CAL, 2026)
+
+* [__[THOR]__ A Non-Speculative Value Dependent Timing Side Channel Attack Exploiting Intel AMX](https://research.ece.ncsu.edu/brainspec/wp-content/uploads/sites/35/2026/06/thor.pdf) (IEEE CAL, 2025)
+
+* [__[NetLoki]__ Exploiting Intel AMX Power Gating](https://research.ece.ncsu.edu/brainspec/wp-content/uploads/sites/35/2026/06/exploiting_intel_amx_power_gating.pdf) (IEEE CAL, 2025)
+
+* [__[GateBleed]__ Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI](https://doi.org/10.1145/3725843.3756097) (MICRO, 2025)
+    * [IEEE Micro Top Picks companion article (2026, author manuscript)](https://research.ece.ncsu.edu/gatebleed/wp-content/uploads/sites/44/2026/06/gatebleed-toppicks.pdf)
+    * [Project and artifacts](https://research.ece.ncsu.edu/gatebleed/)
+
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
 * Rowhammer (Google): https://github.com/google/rowhammer-test
