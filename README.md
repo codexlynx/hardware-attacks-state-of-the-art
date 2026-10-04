@@ -110,6 +110,8 @@ Contributions, comments and corrections are welcome, please do PR.
     * [IEEE Micro Top Picks companion article (2026, author manuscript)](https://research.ece.ncsu.edu/gatebleed/wp-content/uploads/sites/44/2026/06/gatebleed-toppicks.pdf)
     * [Project and artifacts](https://research.ece.ncsu.edu/gatebleed/)
 
+* [An Attack on The Speculative Vectorization: Leakage from Higher Dimensional Speculation](https://arxiv.org/abs/2302.01131) (arXiv preprint, 2023)
+
 #### Proof of concepts:
 * TPM-Fail: https://github.com/VernamLab/TPM-Fail
 * Rowhammer (Google): https://github.com/google/rowhammer-test
